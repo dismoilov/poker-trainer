@@ -1,0 +1,8616 @@
+{
+  "spots": [
+    {
+      "id": "srp-btn-bb-flop",
+      "name": "SRP BTN vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-co-bb-flop",
+      "name": "SRP CO vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-mp-bb-flop",
+      "name": "SRP MP vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "MP",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-sb-bb-flop",
+      "name": "SRP SB vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "SB",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-sb-flop",
+      "name": "SRP BTN vs SB Flop",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-co-sb-flop",
+      "name": "SRP CO vs SB Flop",
+      "format": "SRP",
+      "positions": [
+        "CO",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-utg-bb-flop",
+      "name": "SRP UTG vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "UTG",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-co-flop",
+      "name": "SRP BTN vs CO Flop",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "CO"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-hj-bb-flop",
+      "name": "SRP HJ vs BB Flop",
+      "format": "SRP",
+      "positions": [
+        "HJ",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-utg-sb-flop",
+      "name": "SRP UTG vs SB Flop",
+      "format": "SRP",
+      "positions": [
+        "UTG",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-mp-sb-flop",
+      "name": "SRP MP vs SB Flop",
+      "format": "SRP",
+      "positions": [
+        "MP",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-hj-co-flop",
+      "name": "SRP HJ vs CO Flop",
+      "format": "SRP",
+      "positions": [
+        "HJ",
+        "CO"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "OOP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-co-btn-flop",
+      "name": "SRP CO vs BTN Flop",
+      "format": "SRP",
+      "positions": [
+        "CO",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "SRP",
+        "flop",
+        "IP"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-btn-bb-flop",
+      "name": "3Bet BTN vs BB Flop",
+      "format": "3bet",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-co-bb-flop",
+      "name": "3Bet CO vs BB Flop",
+      "format": "3bet",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-btn-sb-flop",
+      "name": "3Bet BTN vs SB Flop",
+      "format": "3bet",
+      "positions": [
+        "BTN",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-sb-btn-flop",
+      "name": "3Bet SB vs BTN Flop",
+      "format": "3bet",
+      "positions": [
+        "SB",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-bb-co-flop",
+      "name": "3Bet BB vs CO Flop",
+      "format": "3bet",
+      "positions": [
+        "BB",
+        "CO"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-utg-bb-flop",
+      "name": "3Bet UTG vs BB Flop",
+      "format": "3bet",
+      "positions": [
+        "UTG",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-hj-bb-flop",
+      "name": "3Bet HJ vs BB Flop",
+      "format": "3bet",
+      "positions": [
+        "HJ",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-co-btn-flop",
+      "name": "3Bet CO vs BTN Flop",
+      "format": "3bet",
+      "positions": [
+        "CO",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-mp-bb-flop",
+      "name": "3Bet MP vs BB Flop",
+      "format": "3bet",
+      "positions": [
+        "MP",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-sb-co-flop",
+      "name": "3Bet SB vs CO Flop",
+      "format": "3bet",
+      "positions": [
+        "SB",
+        "CO"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "3bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "4bet-btn-bb-flop",
+      "name": "4Bet BTN vs BB Flop",
+      "format": "4bet",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "4bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "4bet-co-bb-flop",
+      "name": "4Bet CO vs BB Flop",
+      "format": "4bet",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "4bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "4bet-sb-btn-flop",
+      "name": "4Bet SB vs BTN Flop",
+      "format": "4bet",
+      "positions": [
+        "SB",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "4bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "4bet-utg-bb-flop",
+      "name": "4Bet UTG vs BB Flop",
+      "format": "4bet",
+      "positions": [
+        "UTG",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "4bet",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "sqz-bb-co-flop",
+      "name": "Squeeze BB vs CO Flop",
+      "format": "squeeze",
+      "positions": [
+        "BB",
+        "CO"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "squeeze",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "sqz-sb-btn-flop",
+      "name": "Squeeze SB vs BTN Flop",
+      "format": "squeeze",
+      "positions": [
+        "SB",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "squeeze",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "sqz-bb-btn-flop",
+      "name": "Squeeze BB vs BTN Flop",
+      "format": "squeeze",
+      "positions": [
+        "BB",
+        "BTN"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop"
+      ],
+      "tags": [
+        "squeeze",
+        "flop"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-bb-turn-cc",
+      "name": "SRP BTN vs BB Turn (check-check)",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-bb-turn-bc",
+      "name": "SRP BTN vs BB Turn (bet-call)",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-co-bb-turn",
+      "name": "SRP CO vs BB Turn",
+      "format": "SRP",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-btn-bb-turn",
+      "name": "3Bet BTN vs BB Turn",
+      "format": "3bet",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "3bet",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-sb-bb-turn-cc",
+      "name": "SRP SB vs BB Turn (check-check)",
+      "format": "SRP",
+      "positions": [
+        "SB",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "3bet-co-bb-turn",
+      "name": "3Bet CO vs BB Turn",
+      "format": "3bet",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "3bet",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-hj-bb-turn-bc",
+      "name": "SRP HJ vs BB Turn (bet-call)",
+      "format": "SRP",
+      "positions": [
+        "HJ",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-sb-turn-bc",
+      "name": "SRP BTN vs SB Turn (bet-call)",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn"
+      ],
+      "tags": [
+        "SRP",
+        "turn"
+      ],
+      "solved": true,
+      "nodeCount": 6
+    },
+    {
+      "id": "srp-btn-bb-river",
+      "name": "SRP BTN vs BB River",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn",
+        "river"
+      ],
+      "tags": [
+        "SRP",
+        "river"
+      ],
+      "solved": true,
+      "nodeCount": 5
+    },
+    {
+      "id": "3bet-btn-bb-river",
+      "name": "3Bet BTN vs BB River",
+      "format": "3bet",
+      "positions": [
+        "BTN",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn",
+        "river"
+      ],
+      "tags": [
+        "3bet",
+        "river"
+      ],
+      "solved": true,
+      "nodeCount": 5
+    },
+    {
+      "id": "srp-co-bb-river",
+      "name": "SRP CO vs BB River",
+      "format": "SRP",
+      "positions": [
+        "CO",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn",
+        "river"
+      ],
+      "tags": [
+        "SRP",
+        "river"
+      ],
+      "solved": true,
+      "nodeCount": 5
+    },
+    {
+      "id": "3bet-sb-bb-river",
+      "name": "3Bet SB vs BB River",
+      "format": "3bet",
+      "positions": [
+        "SB",
+        "BB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn",
+        "river"
+      ],
+      "tags": [
+        "3bet",
+        "river"
+      ],
+      "solved": true,
+      "nodeCount": 5
+    },
+    {
+      "id": "srp-btn-sb-river",
+      "name": "SRP BTN vs SB River",
+      "format": "SRP",
+      "positions": [
+        "BTN",
+        "SB"
+      ],
+      "stack": 100,
+      "rakeProfile": "low",
+      "streets": [
+        "flop",
+        "turn",
+        "river"
+      ],
+      "tags": [
+        "SRP",
+        "river"
+      ],
+      "solved": true,
+      "nodeCount": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": "srp-btn-bb-flop__root",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open 2.5bb → BB call",
+      "children": [
+        "srp-btn-bb-flop__node-2",
+        "srp-btn-bb-flop__node-5",
+        "srp-btn-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-bb-flop__node-2",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-bb-flop__root",
+      "lineDescription": "BTN open → BB call → BB check",
+      "children": [
+        "srp-btn-bb-flop__node-3",
+        "srp-btn-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-btn-bb-flop__node-3",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "srp-btn-bb-flop__node-4",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-flop__node-5",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-btn-bb-flop__node-6",
+      "spotId": "srp-btn-bb-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-flop__root",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open 2.5bb → BB call",
+      "children": [
+        "srp-co-bb-flop__node-2",
+        "srp-co-bb-flop__node-5",
+        "srp-co-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-co-bb-flop__node-2",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-co-bb-flop__root",
+      "lineDescription": "CO open → BB call → BB check",
+      "children": [
+        "srp-co-bb-flop__node-3",
+        "srp-co-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-co-bb-flop__node-3",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "srp-co-bb-flop__node-4",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-flop__node-5",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-co-bb-flop__node-6",
+      "spotId": "srp-co-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-mp-bb-flop__root",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "MP open 2.5bb → BB call",
+      "children": [
+        "srp-mp-bb-flop__node-2",
+        "srp-mp-bb-flop__node-5",
+        "srp-mp-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-mp-bb-flop__node-2",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-mp-bb-flop__root",
+      "lineDescription": "MP open → BB call → BB check",
+      "children": [
+        "srp-mp-bb-flop__node-3",
+        "srp-mp-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-mp-bb-flop__node-3",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-bb-flop__node-2",
+      "lineDescription": "BB check → MP bet 33%",
+      "children": [],
+      "actionLabel": "MP Bet 33%"
+    },
+    {
+      "id": "srp-mp-bb-flop__node-4",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-bb-flop__node-2",
+      "lineDescription": "BB check → MP bet 75%",
+      "children": [],
+      "actionLabel": "MP Bet 75%"
+    },
+    {
+      "id": "srp-mp-bb-flop__node-5",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-mp-bb-flop__node-6",
+      "spotId": "srp-mp-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-sb-bb-flop__root",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB open 2.5bb → BB call",
+      "children": [
+        "srp-sb-bb-flop__node-2",
+        "srp-sb-bb-flop__node-5",
+        "srp-sb-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-sb-bb-flop__node-2",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-sb-bb-flop__root",
+      "lineDescription": "SB open → BB call → BB check",
+      "children": [
+        "srp-sb-bb-flop__node-3",
+        "srp-sb-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-sb-bb-flop__node-3",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-flop__node-2",
+      "lineDescription": "BB check → SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "srp-sb-bb-flop__node-4",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-flop__node-2",
+      "lineDescription": "BB check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-sb-bb-flop__node-5",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-sb-bb-flop__node-6",
+      "spotId": "srp-sb-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-flop__root",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open 2.5bb → SB call",
+      "children": [
+        "srp-btn-sb-flop__node-2",
+        "srp-btn-sb-flop__node-5",
+        "srp-btn-sb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-sb-flop__node-2",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-sb-flop__root",
+      "lineDescription": "BTN open → SB call → SB check",
+      "children": [
+        "srp-btn-sb-flop__node-3",
+        "srp-btn-sb-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-btn-sb-flop__node-3",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-flop__node-2",
+      "lineDescription": "SB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "srp-btn-sb-flop__node-4",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-flop__node-2",
+      "lineDescription": "SB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-flop__node-5",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "srp-btn-sb-flop__node-6",
+      "spotId": "srp-btn-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-co-sb-flop__root",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open 2.5bb → SB call",
+      "children": [
+        "srp-co-sb-flop__node-2",
+        "srp-co-sb-flop__node-5",
+        "srp-co-sb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-co-sb-flop__node-2",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-co-sb-flop__root",
+      "lineDescription": "CO open → SB call → SB check",
+      "children": [
+        "srp-co-sb-flop__node-3",
+        "srp-co-sb-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-co-sb-flop__node-3",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-sb-flop__node-2",
+      "lineDescription": "SB check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "srp-co-sb-flop__node-4",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-sb-flop__node-2",
+      "lineDescription": "SB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-co-sb-flop__node-5",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-sb-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "srp-co-sb-flop__node-6",
+      "spotId": "srp-co-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-sb-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-utg-bb-flop__root",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "UTG open 2.5bb → BB call",
+      "children": [
+        "srp-utg-bb-flop__node-2",
+        "srp-utg-bb-flop__node-5",
+        "srp-utg-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-utg-bb-flop__node-2",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-utg-bb-flop__root",
+      "lineDescription": "UTG open → BB call → BB check",
+      "children": [
+        "srp-utg-bb-flop__node-3",
+        "srp-utg-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-utg-bb-flop__node-3",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 33%",
+      "children": [],
+      "actionLabel": "UTG Bet 33%"
+    },
+    {
+      "id": "srp-utg-bb-flop__node-4",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 75%",
+      "children": [],
+      "actionLabel": "UTG Bet 75%"
+    },
+    {
+      "id": "srp-utg-bb-flop__node-5",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-utg-bb-flop__node-6",
+      "spotId": "srp-utg-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-co-flop__root",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open 2.5bb → CO call",
+      "children": [
+        "srp-btn-co-flop__node-2",
+        "srp-btn-co-flop__node-5",
+        "srp-btn-co-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-co-flop__node-2",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-co-flop__root",
+      "lineDescription": "BTN open → CO call → CO check",
+      "children": [
+        "srp-btn-co-flop__node-3",
+        "srp-btn-co-flop__node-4"
+      ],
+      "actionLabel": "CO Check"
+    },
+    {
+      "id": "srp-btn-co-flop__node-3",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-co-flop__node-2",
+      "lineDescription": "CO check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "srp-btn-co-flop__node-4",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-co-flop__node-2",
+      "lineDescription": "CO check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-co-flop__node-5",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-co-flop__root",
+      "lineDescription": "CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "srp-btn-co-flop__node-6",
+      "spotId": "srp-btn-co-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-co-flop__root",
+      "lineDescription": "CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-hj-bb-flop__root",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "HJ open 2.5bb → BB call",
+      "children": [
+        "srp-hj-bb-flop__node-2",
+        "srp-hj-bb-flop__node-5",
+        "srp-hj-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-hj-bb-flop__node-2",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-hj-bb-flop__root",
+      "lineDescription": "HJ open → BB call → BB check",
+      "children": [
+        "srp-hj-bb-flop__node-3",
+        "srp-hj-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-hj-bb-flop__node-3",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-flop__node-2",
+      "lineDescription": "BB check → HJ bet 33%",
+      "children": [],
+      "actionLabel": "HJ Bet 33%"
+    },
+    {
+      "id": "srp-hj-bb-flop__node-4",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-flop__node-2",
+      "lineDescription": "BB check → HJ bet 75%",
+      "children": [],
+      "actionLabel": "HJ Bet 75%"
+    },
+    {
+      "id": "srp-hj-bb-flop__node-5",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "srp-hj-bb-flop__node-6",
+      "spotId": "srp-hj-bb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-utg-sb-flop__root",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "UTG open 2.5bb → SB call",
+      "children": [
+        "srp-utg-sb-flop__node-2",
+        "srp-utg-sb-flop__node-5",
+        "srp-utg-sb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-utg-sb-flop__node-2",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-utg-sb-flop__root",
+      "lineDescription": "UTG open → SB call → SB check",
+      "children": [
+        "srp-utg-sb-flop__node-3",
+        "srp-utg-sb-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-utg-sb-flop__node-3",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-sb-flop__node-2",
+      "lineDescription": "SB check → UTG bet 33%",
+      "children": [],
+      "actionLabel": "UTG Bet 33%"
+    },
+    {
+      "id": "srp-utg-sb-flop__node-4",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-sb-flop__node-2",
+      "lineDescription": "SB check → UTG bet 75%",
+      "children": [],
+      "actionLabel": "UTG Bet 75%"
+    },
+    {
+      "id": "srp-utg-sb-flop__node-5",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-sb-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "srp-utg-sb-flop__node-6",
+      "spotId": "srp-utg-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-utg-sb-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-mp-sb-flop__root",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "MP open 2.5bb → SB call",
+      "children": [
+        "srp-mp-sb-flop__node-2",
+        "srp-mp-sb-flop__node-5",
+        "srp-mp-sb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-mp-sb-flop__node-2",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-mp-sb-flop__root",
+      "lineDescription": "MP open → SB call → SB check",
+      "children": [
+        "srp-mp-sb-flop__node-3",
+        "srp-mp-sb-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-mp-sb-flop__node-3",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-sb-flop__node-2",
+      "lineDescription": "SB check → MP bet 33%",
+      "children": [],
+      "actionLabel": "MP Bet 33%"
+    },
+    {
+      "id": "srp-mp-sb-flop__node-4",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-sb-flop__node-2",
+      "lineDescription": "SB check → MP bet 75%",
+      "children": [],
+      "actionLabel": "MP Bet 75%"
+    },
+    {
+      "id": "srp-mp-sb-flop__node-5",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-sb-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "srp-mp-sb-flop__node-6",
+      "spotId": "srp-mp-sb-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-mp-sb-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-hj-co-flop__root",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "HJ open 2.5bb → CO call",
+      "children": [
+        "srp-hj-co-flop__node-2",
+        "srp-hj-co-flop__node-5",
+        "srp-hj-co-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-hj-co-flop__node-2",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 6.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-hj-co-flop__root",
+      "lineDescription": "HJ open → CO call → CO check",
+      "children": [
+        "srp-hj-co-flop__node-3",
+        "srp-hj-co-flop__node-4"
+      ],
+      "actionLabel": "CO Check"
+    },
+    {
+      "id": "srp-hj-co-flop__node-3",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-co-flop__node-2",
+      "lineDescription": "CO check → HJ bet 33%",
+      "children": [],
+      "actionLabel": "HJ Bet 33%"
+    },
+    {
+      "id": "srp-hj-co-flop__node-4",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-co-flop__node-2",
+      "lineDescription": "CO check → HJ bet 75%",
+      "children": [],
+      "actionLabel": "HJ Bet 75%"
+    },
+    {
+      "id": "srp-hj-co-flop__node-5",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 8.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-co-flop__root",
+      "lineDescription": "CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "srp-hj-co-flop__node-6",
+      "spotId": "srp-hj-co-flop",
+      "street": "flop",
+      "pot": 10.5,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-co-flop__root",
+      "lineDescription": "CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-co-btn-flop__root",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open 2.5bb → BTN call",
+      "children": [
+        "srp-co-btn-flop__node-2",
+        "srp-co-btn-flop__node-5",
+        "srp-co-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-co-btn-flop__node-2",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 6.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-co-btn-flop__root",
+      "lineDescription": "CO open → BTN call → BTN check",
+      "children": [
+        "srp-co-btn-flop__node-3",
+        "srp-co-btn-flop__node-4"
+      ],
+      "actionLabel": "BTN Check"
+    },
+    {
+      "id": "srp-co-btn-flop__node-3",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-btn-flop__node-2",
+      "lineDescription": "BTN check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "srp-co-btn-flop__node-4",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-btn-flop__node-2",
+      "lineDescription": "BTN check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-co-btn-flop__node-5",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 8.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-btn-flop__root",
+      "lineDescription": "BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "srp-co-btn-flop__node-6",
+      "spotId": "srp-co-btn-flop",
+      "street": "flop",
+      "pot": 11.4,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-btn-flop__root",
+      "lineDescription": "BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-flop__root",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → BB 3bet → BTN call",
+      "children": [
+        "3bet-btn-bb-flop__node-2",
+        "3bet-btn-bb-flop__node-5",
+        "3bet-btn-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-btn-bb-flop__node-2",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-btn-bb-flop__root",
+      "lineDescription": "BB 3bet → BTN call → BB check",
+      "children": [
+        "3bet-btn-bb-flop__node-3",
+        "3bet-btn-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-btn-bb-flop__node-3",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "3bet-btn-bb-flop__node-4",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-flop__node-5",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-btn-bb-flop__node-6",
+      "spotId": "3bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-co-bb-flop__root",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → BB 3bet → CO call",
+      "children": [
+        "3bet-co-bb-flop__node-2",
+        "3bet-co-bb-flop__node-5",
+        "3bet-co-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-co-bb-flop__node-2",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-co-bb-flop__root",
+      "lineDescription": "BB 3bet → CO call → BB check",
+      "children": [
+        "3bet-co-bb-flop__node-3",
+        "3bet-co-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-co-bb-flop__node-3",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "3bet-co-bb-flop__node-4",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "3bet-co-bb-flop__node-5",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-co-bb-flop__node-6",
+      "spotId": "3bet-co-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-btn-sb-flop__root",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → SB 3bet → BTN call",
+      "children": [
+        "3bet-btn-sb-flop__node-2",
+        "3bet-btn-sb-flop__node-5",
+        "3bet-btn-sb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-btn-sb-flop__node-2",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-btn-sb-flop__root",
+      "lineDescription": "SB 3bet → BTN call → SB check",
+      "children": [
+        "3bet-btn-sb-flop__node-3",
+        "3bet-btn-sb-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "3bet-btn-sb-flop__node-3",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-sb-flop__node-2",
+      "lineDescription": "SB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "3bet-btn-sb-flop__node-4",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-sb-flop__node-2",
+      "lineDescription": "SB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-btn-sb-flop__node-5",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-sb-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "3bet-btn-sb-flop__node-6",
+      "spotId": "3bet-btn-sb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-sb-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "3bet-sb-btn-flop__root",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 13.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB open → BTN 3bet → SB call",
+      "children": [
+        "3bet-sb-btn-flop__node-2",
+        "3bet-sb-btn-flop__node-5",
+        "3bet-sb-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-sb-btn-flop__node-2",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 13.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-sb-btn-flop__root",
+      "lineDescription": "BTN 3bet → SB call → BTN check",
+      "children": [
+        "3bet-sb-btn-flop__node-3",
+        "3bet-sb-btn-flop__node-4"
+      ],
+      "actionLabel": "BTN Check"
+    },
+    {
+      "id": "3bet-sb-btn-flop__node-3",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 17.3,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-btn-flop__node-2",
+      "lineDescription": "BTN check → SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "3bet-sb-btn-flop__node-4",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 22.8,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-btn-flop__node-2",
+      "lineDescription": "BTN check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "3bet-sb-btn-flop__node-5",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 17.3,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-btn-flop__root",
+      "lineDescription": "BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "3bet-sb-btn-flop__node-6",
+      "spotId": "3bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 22.8,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-btn-flop__root",
+      "lineDescription": "BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-bb-co-flop__root",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BB open → CO 3bet → BB call",
+      "children": [
+        "3bet-bb-co-flop__node-2",
+        "3bet-bb-co-flop__node-5",
+        "3bet-bb-co-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-bb-co-flop__node-2",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-bb-co-flop__root",
+      "lineDescription": "CO 3bet → BB call → CO check",
+      "children": [
+        "3bet-bb-co-flop__node-3",
+        "3bet-bb-co-flop__node-4"
+      ],
+      "actionLabel": "CO Check"
+    },
+    {
+      "id": "3bet-bb-co-flop__node-3",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-bb-co-flop__node-2",
+      "lineDescription": "CO check → BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-bb-co-flop__node-4",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-bb-co-flop__node-2",
+      "lineDescription": "CO check → BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-bb-co-flop__node-5",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-bb-co-flop__root",
+      "lineDescription": "CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "3bet-bb-co-flop__node-6",
+      "spotId": "3bet-bb-co-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-bb-co-flop__root",
+      "lineDescription": "CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "3bet-utg-bb-flop__root",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "UTG open → BB 3bet → UTG call",
+      "children": [
+        "3bet-utg-bb-flop__node-2",
+        "3bet-utg-bb-flop__node-5",
+        "3bet-utg-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-utg-bb-flop__node-2",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-utg-bb-flop__root",
+      "lineDescription": "BB 3bet → UTG call → BB check",
+      "children": [
+        "3bet-utg-bb-flop__node-3",
+        "3bet-utg-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-utg-bb-flop__node-3",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 33%",
+      "children": [],
+      "actionLabel": "UTG Bet 33%"
+    },
+    {
+      "id": "3bet-utg-bb-flop__node-4",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 75%",
+      "children": [],
+      "actionLabel": "UTG Bet 75%"
+    },
+    {
+      "id": "3bet-utg-bb-flop__node-5",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-utg-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-utg-bb-flop__node-6",
+      "spotId": "3bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-utg-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-hj-bb-flop__root",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "HJ open → BB 3bet → HJ call",
+      "children": [
+        "3bet-hj-bb-flop__node-2",
+        "3bet-hj-bb-flop__node-5",
+        "3bet-hj-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-hj-bb-flop__node-2",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-hj-bb-flop__root",
+      "lineDescription": "BB 3bet → HJ call → BB check",
+      "children": [
+        "3bet-hj-bb-flop__node-3",
+        "3bet-hj-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-hj-bb-flop__node-3",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-hj-bb-flop__node-2",
+      "lineDescription": "BB check → HJ bet 33%",
+      "children": [],
+      "actionLabel": "HJ Bet 33%"
+    },
+    {
+      "id": "3bet-hj-bb-flop__node-4",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-hj-bb-flop__node-2",
+      "lineDescription": "BB check → HJ bet 75%",
+      "children": [],
+      "actionLabel": "HJ Bet 75%"
+    },
+    {
+      "id": "3bet-hj-bb-flop__node-5",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-hj-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-hj-bb-flop__node-6",
+      "spotId": "3bet-hj-bb-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-hj-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-co-btn-flop__root",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → BTN 3bet → CO call",
+      "children": [
+        "3bet-co-btn-flop__node-2",
+        "3bet-co-btn-flop__node-5",
+        "3bet-co-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-co-btn-flop__node-2",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 13.5,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-co-btn-flop__root",
+      "lineDescription": "BTN 3bet → CO call → BTN check",
+      "children": [
+        "3bet-co-btn-flop__node-3",
+        "3bet-co-btn-flop__node-4"
+      ],
+      "actionLabel": "BTN Check"
+    },
+    {
+      "id": "3bet-co-btn-flop__node-3",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-btn-flop__node-2",
+      "lineDescription": "BTN check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "3bet-co-btn-flop__node-4",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-btn-flop__node-2",
+      "lineDescription": "BTN check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "3bet-co-btn-flop__node-5",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 18.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-btn-flop__root",
+      "lineDescription": "BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "3bet-co-btn-flop__node-6",
+      "spotId": "3bet-co-btn-flop",
+      "street": "flop",
+      "pot": 23.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-btn-flop__root",
+      "lineDescription": "BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-mp-bb-flop__root",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "MP open → BB 3bet → MP call",
+      "children": [
+        "3bet-mp-bb-flop__node-2",
+        "3bet-mp-bb-flop__node-5",
+        "3bet-mp-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-mp-bb-flop__node-2",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 14.0,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-mp-bb-flop__root",
+      "lineDescription": "BB 3bet → MP call → BB check",
+      "children": [
+        "3bet-mp-bb-flop__node-3",
+        "3bet-mp-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-mp-bb-flop__node-3",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-mp-bb-flop__node-2",
+      "lineDescription": "BB check → MP bet 33%",
+      "children": [],
+      "actionLabel": "MP Bet 33%"
+    },
+    {
+      "id": "3bet-mp-bb-flop__node-4",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-mp-bb-flop__node-2",
+      "lineDescription": "BB check → MP bet 75%",
+      "children": [],
+      "actionLabel": "MP Bet 75%"
+    },
+    {
+      "id": "3bet-mp-bb-flop__node-5",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 18.6,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-mp-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "3bet-mp-bb-flop__node-6",
+      "spotId": "3bet-mp-bb-flop",
+      "street": "flop",
+      "pot": 24.5,
+      "player": "MP",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-mp-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-sb-co-flop__root",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 13.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB open → CO 3bet → SB call",
+      "children": [
+        "3bet-sb-co-flop__node-2",
+        "3bet-sb-co-flop__node-5",
+        "3bet-sb-co-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-sb-co-flop__node-2",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 13.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-sb-co-flop__root",
+      "lineDescription": "CO 3bet → SB call → CO check",
+      "children": [
+        "3bet-sb-co-flop__node-3",
+        "3bet-sb-co-flop__node-4"
+      ],
+      "actionLabel": "CO Check"
+    },
+    {
+      "id": "3bet-sb-co-flop__node-3",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 17.3,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-co-flop__node-2",
+      "lineDescription": "CO check → SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "3bet-sb-co-flop__node-4",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 22.8,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-co-flop__node-2",
+      "lineDescription": "CO check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "3bet-sb-co-flop__node-5",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 17.3,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-co-flop__root",
+      "lineDescription": "CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "3bet-sb-co-flop__node-6",
+      "spotId": "3bet-sb-co-flop",
+      "street": "flop",
+      "pot": 22.8,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-co-flop__root",
+      "lineDescription": "CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "4bet-btn-bb-flop__root",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 25.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open 2.5bb → BB call",
+      "children": [
+        "4bet-btn-bb-flop__node-2",
+        "4bet-btn-bb-flop__node-5",
+        "4bet-btn-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "4bet-btn-bb-flop__node-2",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 25.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "4bet-btn-bb-flop__root",
+      "lineDescription": "BTN open → BB call → BB check",
+      "children": [
+        "4bet-btn-bb-flop__node-3",
+        "4bet-btn-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "4bet-btn-bb-flop__node-3",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "4bet-btn-bb-flop__node-4",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 43.8,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-btn-bb-flop__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "4bet-btn-bb-flop__node-5",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-btn-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "4bet-btn-bb-flop__node-6",
+      "spotId": "4bet-btn-bb-flop",
+      "street": "flop",
+      "pot": 43.8,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-btn-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "4bet-co-bb-flop__root",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 25.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open 2.5bb → BB call",
+      "children": [
+        "4bet-co-bb-flop__node-2",
+        "4bet-co-bb-flop__node-5",
+        "4bet-co-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "4bet-co-bb-flop__node-2",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 25.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "4bet-co-bb-flop__root",
+      "lineDescription": "CO open → BB call → BB check",
+      "children": [
+        "4bet-co-bb-flop__node-3",
+        "4bet-co-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "4bet-co-bb-flop__node-3",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "4bet-co-bb-flop__node-4",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 43.8,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-co-bb-flop__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "4bet-co-bb-flop__node-5",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-co-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "4bet-co-bb-flop__node-6",
+      "spotId": "4bet-co-bb-flop",
+      "street": "flop",
+      "pot": 43.8,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-co-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "4bet-sb-btn-flop__root",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 24.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB open 2.5bb → BTN call",
+      "children": [
+        "4bet-sb-btn-flop__node-2",
+        "4bet-sb-btn-flop__node-5",
+        "4bet-sb-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "4bet-sb-btn-flop__node-2",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 24.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "4bet-sb-btn-flop__root",
+      "lineDescription": "SB open → BTN call → BTN check",
+      "children": [
+        "4bet-sb-btn-flop__node-3",
+        "4bet-sb-btn-flop__node-4"
+      ],
+      "actionLabel": "BTN Check"
+    },
+    {
+      "id": "4bet-sb-btn-flop__node-3",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 31.9,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-sb-btn-flop__node-2",
+      "lineDescription": "BTN check → SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "4bet-sb-btn-flop__node-4",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 42.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-sb-btn-flop__node-2",
+      "lineDescription": "BTN check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "4bet-sb-btn-flop__node-5",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 31.9,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-sb-btn-flop__root",
+      "lineDescription": "BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "4bet-sb-btn-flop__node-6",
+      "spotId": "4bet-sb-btn-flop",
+      "street": "flop",
+      "pot": 42.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-sb-btn-flop__root",
+      "lineDescription": "BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "4bet-utg-bb-flop__root",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 26.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "UTG open 2.5bb → BB call",
+      "children": [
+        "4bet-utg-bb-flop__node-2",
+        "4bet-utg-bb-flop__node-5",
+        "4bet-utg-bb-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "4bet-utg-bb-flop__node-2",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 26.0,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "4bet-utg-bb-flop__root",
+      "lineDescription": "UTG open → BB call → BB check",
+      "children": [
+        "4bet-utg-bb-flop__node-3",
+        "4bet-utg-bb-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "4bet-utg-bb-flop__node-3",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 34.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 33%",
+      "children": [],
+      "actionLabel": "UTG Bet 33%"
+    },
+    {
+      "id": "4bet-utg-bb-flop__node-4",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 45.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-utg-bb-flop__node-2",
+      "lineDescription": "BB check → UTG bet 75%",
+      "children": [],
+      "actionLabel": "UTG Bet 75%"
+    },
+    {
+      "id": "4bet-utg-bb-flop__node-5",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 34.6,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-utg-bb-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "4bet-utg-bb-flop__node-6",
+      "spotId": "4bet-utg-bb-flop",
+      "street": "flop",
+      "pot": 45.5,
+      "player": "UTG",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "4bet-utg-bb-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "sqz-bb-co-flop__root",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 20.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → cold call → BB squeeze → CO call",
+      "children": [
+        "sqz-bb-co-flop__node-2",
+        "sqz-bb-co-flop__node-5",
+        "sqz-bb-co-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "sqz-bb-co-flop__node-2",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 20.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "sqz-bb-co-flop__root",
+      "lineDescription": "Squeeze pot → BB check",
+      "children": [
+        "sqz-bb-co-flop__node-3",
+        "sqz-bb-co-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "sqz-bb-co-flop__node-3",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 26.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-co-flop__node-2",
+      "lineDescription": "BB check → CO bet 33%",
+      "children": [],
+      "actionLabel": "CO Bet 33%"
+    },
+    {
+      "id": "sqz-bb-co-flop__node-4",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 35.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-co-flop__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "sqz-bb-co-flop__node-5",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 26.6,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-co-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "sqz-bb-co-flop__node-6",
+      "spotId": "sqz-bb-co-flop",
+      "street": "flop",
+      "pot": 35.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-co-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "sqz-sb-btn-flop__root",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 19.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → cold call → SB squeeze → BTN call",
+      "children": [
+        "sqz-sb-btn-flop__node-2",
+        "sqz-sb-btn-flop__node-5",
+        "sqz-sb-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "sqz-sb-btn-flop__node-2",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 19.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "sqz-sb-btn-flop__root",
+      "lineDescription": "Squeeze pot → SB check",
+      "children": [
+        "sqz-sb-btn-flop__node-3",
+        "sqz-sb-btn-flop__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "sqz-sb-btn-flop__node-3",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 25.3,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-sb-btn-flop__node-2",
+      "lineDescription": "SB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "sqz-sb-btn-flop__node-4",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-sb-btn-flop__node-2",
+      "lineDescription": "SB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "sqz-sb-btn-flop__node-5",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 25.3,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-sb-btn-flop__root",
+      "lineDescription": "SB bet 33%",
+      "children": [],
+      "actionLabel": "SB Bet 33%"
+    },
+    {
+      "id": "sqz-sb-btn-flop__node-6",
+      "spotId": "sqz-sb-btn-flop",
+      "street": "flop",
+      "pot": 33.2,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-sb-btn-flop__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "sqz-bb-btn-flop__root",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 20.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → cold call → BB squeeze → BTN call",
+      "children": [
+        "sqz-bb-btn-flop__node-2",
+        "sqz-bb-btn-flop__node-5",
+        "sqz-bb-btn-flop__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "sqz-bb-btn-flop__node-2",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 20.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet33",
+          "label": "Bet 33%",
+          "type": "bet",
+          "size": 33
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "sqz-bb-btn-flop__root",
+      "lineDescription": "Squeeze pot → BB check",
+      "children": [
+        "sqz-bb-btn-flop__node-3",
+        "sqz-bb-btn-flop__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "sqz-bb-btn-flop__node-3",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 26.6,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-btn-flop__node-2",
+      "lineDescription": "BB check → BTN bet 33%",
+      "children": [],
+      "actionLabel": "BTN Bet 33%"
+    },
+    {
+      "id": "sqz-bb-btn-flop__node-4",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 35.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-btn-flop__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "sqz-bb-btn-flop__node-5",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 26.6,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-btn-flop__root",
+      "lineDescription": "BB bet 33%",
+      "children": [],
+      "actionLabel": "BB Bet 33%"
+    },
+    {
+      "id": "sqz-bb-btn-flop__node-6",
+      "spotId": "sqz-bb-btn-flop",
+      "street": "flop",
+      "pot": 35.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "sqz-bb-btn-flop__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__root",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 6.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → BB call → flop check-check → turn",
+      "children": [
+        "srp-btn-bb-turn-cc__node-2",
+        "srp-btn-bb-turn-cc__node-5",
+        "srp-btn-bb-turn-cc__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__node-2",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 6.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-cc__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "srp-btn-bb-turn-cc__node-3",
+        "srp-btn-bb-turn-cc__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__node-3",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 9.8,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-cc__node-2",
+      "lineDescription": "BB check → BTN bet 50%",
+      "children": [],
+      "actionLabel": "BTN Bet 50%"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__node-4",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 11.4,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-cc__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__node-5",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 9.8,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-cc__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "srp-btn-bb-turn-cc__node-6",
+      "spotId": "srp-btn-bb-turn-cc",
+      "street": "turn",
+      "pot": 11.4,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-cc__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__root",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → BB call → BTN bet → BB call → turn",
+      "children": [
+        "srp-btn-bb-turn-bc__node-2",
+        "srp-btn-bb-turn-bc__node-5",
+        "srp-btn-bb-turn-bc__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__node-2",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-bc__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "srp-btn-bb-turn-bc__node-3",
+        "srp-btn-bb-turn-bc__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__node-3",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-bc__node-2",
+      "lineDescription": "BB check → BTN bet 50%",
+      "children": [],
+      "actionLabel": "BTN Bet 50%"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__node-4",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-bc__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__node-5",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-bc__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "srp-btn-bb-turn-bc__node-6",
+      "spotId": "srp-btn-bb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-turn-bc__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-turn__root",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → BB call → flop bet-call → turn",
+      "children": [
+        "srp-co-bb-turn__node-2",
+        "srp-co-bb-turn__node-5",
+        "srp-co-bb-turn__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-co-bb-turn__node-2",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-co-bb-turn__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "srp-co-bb-turn__node-3",
+        "srp-co-bb-turn__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-co-bb-turn__node-3",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-turn__node-2",
+      "lineDescription": "BB check → CO bet 50%",
+      "children": [],
+      "actionLabel": "CO Bet 50%"
+    },
+    {
+      "id": "srp-co-bb-turn__node-4",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-turn__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-turn__node-5",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-turn__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "srp-co-bb-turn__node-6",
+      "spotId": "srp-co-bb-turn",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-turn__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-turn__root",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 24.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → BB 3bet → BTN call → flop bet-call → turn",
+      "children": [
+        "3bet-btn-bb-turn__node-2",
+        "3bet-btn-bb-turn__node-5",
+        "3bet-btn-bb-turn__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-btn-bb-turn__node-2",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 24.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-btn-bb-turn__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "3bet-btn-bb-turn__node-3",
+        "3bet-btn-bb-turn__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-btn-bb-turn__node-3",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 36.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-turn__node-2",
+      "lineDescription": "BB check → BTN bet 50%",
+      "children": [],
+      "actionLabel": "BTN Bet 50%"
+    },
+    {
+      "id": "3bet-btn-bb-turn__node-4",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 42.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-turn__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-turn__node-5",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 36.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-turn__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "3bet-btn-bb-turn__node-6",
+      "spotId": "3bet-btn-bb-turn",
+      "street": "turn",
+      "pot": 42.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-turn__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__root",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 6.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB open → BB call → flop check-check → turn",
+      "children": [
+        "srp-sb-bb-turn-cc__node-2",
+        "srp-sb-bb-turn-cc__node-5",
+        "srp-sb-bb-turn-cc__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__node-2",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 6.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-sb-bb-turn-cc__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "srp-sb-bb-turn-cc__node-3",
+        "srp-sb-bb-turn-cc__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__node-3",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 9.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-turn-cc__node-2",
+      "lineDescription": "BB check → SB bet 50%",
+      "children": [],
+      "actionLabel": "SB Bet 50%"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__node-4",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 10.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-turn-cc__node-2",
+      "lineDescription": "BB check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__node-5",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 9.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-turn-cc__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "srp-sb-bb-turn-cc__node-6",
+      "spotId": "srp-sb-bb-turn-cc",
+      "street": "turn",
+      "pot": 10.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-sb-bb-turn-cc__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-co-bb-turn__root",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 24.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → BB 3bet → CO call → flop bet-call → turn",
+      "children": [
+        "3bet-co-bb-turn__node-2",
+        "3bet-co-bb-turn__node-5",
+        "3bet-co-bb-turn__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-co-bb-turn__node-2",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 24.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "3bet-co-bb-turn__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "3bet-co-bb-turn__node-3",
+        "3bet-co-bb-turn__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-co-bb-turn__node-3",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 36.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-turn__node-2",
+      "lineDescription": "BB check → CO bet 50%",
+      "children": [],
+      "actionLabel": "CO Bet 50%"
+    },
+    {
+      "id": "3bet-co-bb-turn__node-4",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 42.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-turn__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "3bet-co-bb-turn__node-5",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 36.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-turn__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "3bet-co-bb-turn__node-6",
+      "spotId": "3bet-co-bb-turn",
+      "street": "turn",
+      "pot": 42.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-co-bb-turn__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__root",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "HJ open → BB call → HJ bet → BB call → turn",
+      "children": [
+        "srp-hj-bb-turn-bc__node-2",
+        "srp-hj-bb-turn-bc__node-5",
+        "srp-hj-bb-turn-bc__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__node-2",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-hj-bb-turn-bc__root",
+      "lineDescription": "Turn → BB check",
+      "children": [
+        "srp-hj-bb-turn-bc__node-3",
+        "srp-hj-bb-turn-bc__node-4"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__node-3",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-turn-bc__node-2",
+      "lineDescription": "BB check → HJ bet 50%",
+      "children": [],
+      "actionLabel": "HJ Bet 50%"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__node-4",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-turn-bc__node-2",
+      "lineDescription": "BB check → HJ bet 75%",
+      "children": [],
+      "actionLabel": "HJ Bet 75%"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__node-5",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-turn-bc__root",
+      "lineDescription": "BB bet 50%",
+      "children": [],
+      "actionLabel": "BB Bet 50%"
+    },
+    {
+      "id": "srp-hj-bb-turn-bc__node-6",
+      "spotId": "srp-hj-bb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "HJ",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-hj-bb-turn-bc__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__root",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → SB call → BTN bet → SB call → turn",
+      "children": [
+        "srp-btn-sb-turn-bc__node-2",
+        "srp-btn-sb-turn-bc__node-5",
+        "srp-btn-sb-turn-bc__node-6"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__node-2",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 12.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet50",
+          "label": "Bet 50%",
+          "type": "bet",
+          "size": 50
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        }
+      ],
+      "parentId": "srp-btn-sb-turn-bc__root",
+      "lineDescription": "Turn → SB check",
+      "children": [
+        "srp-btn-sb-turn-bc__node-3",
+        "srp-btn-sb-turn-bc__node-4"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__node-3",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-turn-bc__node-2",
+      "lineDescription": "SB check → BTN bet 50%",
+      "children": [],
+      "actionLabel": "BTN Bet 50%"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__node-4",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-turn-bc__node-2",
+      "lineDescription": "SB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__node-5",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 18.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-turn-bc__root",
+      "lineDescription": "SB bet 50%",
+      "children": [],
+      "actionLabel": "SB Bet 50%"
+    },
+    {
+      "id": "srp-btn-sb-turn-bc__node-6",
+      "spotId": "srp-btn-sb-turn-bc",
+      "street": "turn",
+      "pot": 21.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-turn-bc__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-river__root",
+      "spotId": "srp-btn-bb-river",
+      "street": "river",
+      "pot": 24.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → Multiple streets → bet-call → river",
+      "children": [
+        "srp-btn-bb-river__node-2",
+        "srp-btn-bb-river__node-3",
+        "srp-btn-bb-river__node-4"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-bb-river__node-2",
+      "spotId": "srp-btn-bb-river",
+      "street": "river",
+      "pot": 24.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": "srp-btn-bb-river__root",
+      "lineDescription": "River → BB check",
+      "children": [
+        "srp-btn-bb-river__node-5"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-btn-bb-river__node-3",
+      "spotId": "srp-btn-bb-river",
+      "street": "river",
+      "pot": 42.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-river__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-btn-bb-river__node-4",
+      "spotId": "srp-btn-bb-river",
+      "street": "river",
+      "pot": 60.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-river__root",
+      "lineDescription": "BB bet 150% (overbet)",
+      "children": [],
+      "actionLabel": "BB Bet 150%"
+    },
+    {
+      "id": "srp-btn-bb-river__node-5",
+      "spotId": "srp-btn-bb-river",
+      "street": "river",
+      "pot": 42.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-bb-river__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-river__root",
+      "spotId": "3bet-btn-bb-river",
+      "street": "river",
+      "pot": 40.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "3bet pot → Multiple streets → bet-call → river",
+      "children": [
+        "3bet-btn-bb-river__node-2",
+        "3bet-btn-bb-river__node-3",
+        "3bet-btn-bb-river__node-4"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-btn-bb-river__node-2",
+      "spotId": "3bet-btn-bb-river",
+      "street": "river",
+      "pot": 40.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": "3bet-btn-bb-river__root",
+      "lineDescription": "River → BB check",
+      "children": [
+        "3bet-btn-bb-river__node-5"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-btn-bb-river__node-3",
+      "spotId": "3bet-btn-bb-river",
+      "street": "river",
+      "pot": 70.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-river__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-btn-bb-river__node-4",
+      "spotId": "3bet-btn-bb-river",
+      "street": "river",
+      "pot": 100.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-river__root",
+      "lineDescription": "BB bet 150% (overbet)",
+      "children": [],
+      "actionLabel": "BB Bet 150%"
+    },
+    {
+      "id": "3bet-btn-bb-river__node-5",
+      "spotId": "3bet-btn-bb-river",
+      "street": "river",
+      "pot": 70.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-btn-bb-river__node-2",
+      "lineDescription": "BB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-river__root",
+      "spotId": "srp-co-bb-river",
+      "street": "river",
+      "pot": 24.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "CO open → Multiple streets → bet-call → river",
+      "children": [
+        "srp-co-bb-river__node-2",
+        "srp-co-bb-river__node-3",
+        "srp-co-bb-river__node-4"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-co-bb-river__node-2",
+      "spotId": "srp-co-bb-river",
+      "street": "river",
+      "pot": 24.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": "srp-co-bb-river__root",
+      "lineDescription": "River → BB check",
+      "children": [
+        "srp-co-bb-river__node-5"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "srp-co-bb-river__node-3",
+      "spotId": "srp-co-bb-river",
+      "street": "river",
+      "pot": 42.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-river__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "srp-co-bb-river__node-4",
+      "spotId": "srp-co-bb-river",
+      "street": "river",
+      "pot": 60.0,
+      "player": "CO",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-river__root",
+      "lineDescription": "BB bet 150% (overbet)",
+      "children": [],
+      "actionLabel": "BB Bet 150%"
+    },
+    {
+      "id": "srp-co-bb-river__node-5",
+      "spotId": "srp-co-bb-river",
+      "street": "river",
+      "pot": 42.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-co-bb-river__node-2",
+      "lineDescription": "BB check → CO bet 75%",
+      "children": [],
+      "actionLabel": "CO Bet 75%"
+    },
+    {
+      "id": "3bet-sb-bb-river__root",
+      "spotId": "3bet-sb-bb-river",
+      "street": "river",
+      "pot": 38.0,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "SB 3bet → Multiple streets → bet-call → river",
+      "children": [
+        "3bet-sb-bb-river__node-2",
+        "3bet-sb-bb-river__node-3",
+        "3bet-sb-bb-river__node-4"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "3bet-sb-bb-river__node-2",
+      "spotId": "3bet-sb-bb-river",
+      "street": "river",
+      "pot": 38.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": "3bet-sb-bb-river__root",
+      "lineDescription": "River → BB check",
+      "children": [
+        "3bet-sb-bb-river__node-5"
+      ],
+      "actionLabel": "BB Check"
+    },
+    {
+      "id": "3bet-sb-bb-river__node-3",
+      "spotId": "3bet-sb-bb-river",
+      "street": "river",
+      "pot": 66.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-bb-river__root",
+      "lineDescription": "BB bet 75%",
+      "children": [],
+      "actionLabel": "BB Bet 75%"
+    },
+    {
+      "id": "3bet-sb-bb-river__node-4",
+      "spotId": "3bet-sb-bb-river",
+      "street": "river",
+      "pot": 95.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-bb-river__root",
+      "lineDescription": "BB bet 150% (overbet)",
+      "children": [],
+      "actionLabel": "BB Bet 150%"
+    },
+    {
+      "id": "3bet-sb-bb-river__node-5",
+      "spotId": "3bet-sb-bb-river",
+      "street": "river",
+      "pot": 66.5,
+      "player": "BB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "3bet-sb-bb-river__node-2",
+      "lineDescription": "BB check → SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-river__root",
+      "spotId": "srp-btn-sb-river",
+      "street": "river",
+      "pot": 22.0,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": null,
+      "lineDescription": "BTN open → SB call → Multiple streets → bet-call → river",
+      "children": [
+        "srp-btn-sb-river__node-2",
+        "srp-btn-sb-river__node-3",
+        "srp-btn-sb-river__node-4"
+      ],
+      "actionLabel": "Root"
+    },
+    {
+      "id": "srp-btn-sb-river__node-2",
+      "spotId": "srp-btn-sb-river",
+      "street": "river",
+      "pot": 22.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "check",
+          "label": "Check",
+          "type": "check"
+        },
+        {
+          "id": "bet75",
+          "label": "Bet 75%",
+          "type": "bet",
+          "size": 75
+        },
+        {
+          "id": "bet150",
+          "label": "Bet 150%",
+          "type": "bet",
+          "size": 150
+        }
+      ],
+      "parentId": "srp-btn-sb-river__root",
+      "lineDescription": "River → SB check",
+      "children": [
+        "srp-btn-sb-river__node-5"
+      ],
+      "actionLabel": "SB Check"
+    },
+    {
+      "id": "srp-btn-sb-river__node-3",
+      "spotId": "srp-btn-sb-river",
+      "street": "river",
+      "pot": 38.5,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-river__root",
+      "lineDescription": "SB bet 75%",
+      "children": [],
+      "actionLabel": "SB Bet 75%"
+    },
+    {
+      "id": "srp-btn-sb-river__node-4",
+      "spotId": "srp-btn-sb-river",
+      "street": "river",
+      "pot": 55.0,
+      "player": "BTN",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-river__root",
+      "lineDescription": "SB bet 150% (overbet)",
+      "children": [],
+      "actionLabel": "SB Bet 150%"
+    },
+    {
+      "id": "srp-btn-sb-river__node-5",
+      "spotId": "srp-btn-sb-river",
+      "street": "river",
+      "pot": 38.5,
+      "player": "SB",
+      "actions": [
+        {
+          "id": "fold",
+          "label": "Fold",
+          "type": "fold"
+        },
+        {
+          "id": "call",
+          "label": "Call",
+          "type": "call"
+        },
+        {
+          "id": "raise",
+          "label": "Raise 2.5x",
+          "type": "raise",
+          "size": 2.5
+        }
+      ],
+      "parentId": "srp-btn-sb-river__node-2",
+      "lineDescription": "SB check → BTN bet 75%",
+      "children": [],
+      "actionLabel": "BTN Bet 75%"
+    }
+  ]
+}
