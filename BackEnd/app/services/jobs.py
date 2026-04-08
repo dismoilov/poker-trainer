@@ -1,4 +1,11 @@
-"""Jobs service — create and manage solve jobs with background tasks."""
+"""
+Jobs service — create and manage strategy generation jobs.
+
+HONEST NOTE: Jobs in Phase 1 use the HeuristicProvider (frequency tables),
+not a real solver. The word "solve" in user-facing labels is kept for UX
+continuity, but internal logs and code are truthful about the method used.
+See app/solver/ for the provider abstraction.
+"""
 
 import asyncio
 import logging
@@ -10,9 +17,13 @@ from sqlalchemy.orm import Session
 from app.db import SessionLocal
 from app.models import JobModel, JobLogModel, NodeModel, SpotModel
 from app.schemas import Job
-from app.services.strategy import generate_strategy, save_strategy
+from app.solver.heuristic_provider import HeuristicProvider
+from app.services.strategy import save_strategy
 
 logger = logging.getLogger(__name__)
+
+# Module-level provider instance
+_provider = HeuristicProvider()
 
 
 def _to_schema(m: JobModel, db: Session) -> Job:
@@ -67,16 +78,17 @@ def create_solve_job(db: Session, spot_id: str, user_id: int | None = None) -> J
 
     # Launch background task (graceful fallback for sync test context)
     try:
-        asyncio.ensure_future(_run_solve(job.id, spot_id))
+        asyncio.ensure_future(_run_strategy_generation(job.id, spot_id))
     except RuntimeError:
         # No running loop (e.g. in sync tests) — skip background task
-        logger.warning("No running event loop, skipping background solve for job %s", job.id)
+        logger.warning("No running event loop, skipping background generation for job %s", job.id)
 
     return _to_schema(job, db)
 
 
-async def _run_solve(job_id: str, spot_id: str):
-    logger.info("Starting solve job %s for spot %s", job_id, spot_id)
+async def _run_strategy_generation(job_id: str, spot_id: str):
+    """Background task: generate heuristic strategies for all nodes in a spot."""
+    logger.info("Starting heuristic strategy generation job %s for spot %s", job_id, spot_id)
     db = SessionLocal()
     try:
         job = db.query(JobModel).filter(JobModel.id == job_id).first()
@@ -84,14 +96,15 @@ async def _run_solve(job_id: str, spot_id: str):
             return
         job.status = "running"
         db.commit()
-        _add_log(db, job_id, "Запущено")
+        _add_log(db, job_id, "Запущено (эвристический провайдер)")
 
         nodes = db.query(NodeModel).filter(NodeModel.spot_id == spot_id).all()
         total = len(nodes)
 
         for idx, node in enumerate(nodes):
-            await asyncio.sleep(0.5)
-            strategy = generate_strategy(node.id, node.actions)
+            await asyncio.sleep(0.3)
+            # Use the provider interface instead of direct function call
+            strategy = _provider.generate_strategy(node.id, node.actions)
             save_strategy(db, node.id, strategy)
 
             progress = int((idx + 1) / total * 100)
@@ -107,14 +120,14 @@ async def _run_solve(job_id: str, spot_id: str):
             job.status = "done"
             job.progress = 100
             db.commit()
-        _add_log(db, job_id, "Готово")
+        _add_log(db, job_id, "Готово — эвристические стратегии сгенерированы")
 
         spot = db.query(SpotModel).filter(SpotModel.id == spot_id).first()
         if spot:
             spot.solved = True
             db.commit()
 
-        logger.info("Job %s completed.", job_id)
+        logger.info("Job %s completed (heuristic provider).", job_id)
 
     except Exception as e:
         logger.error("Job %s failed: %s", job_id, e)

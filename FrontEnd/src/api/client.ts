@@ -15,7 +15,7 @@ import type {
 import { useAuthStore } from '@/store/useAuthStore';
 
 const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+  import.meta.env.VITE_API_BASE_URL || '';
 
 async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
   const token = useAuthStore.getState().token;
@@ -140,5 +140,99 @@ export const api = {
 
   getHandDetail: async (nodeId: string, hand: string): Promise<HandDetail> => {
     return fetchApi(`/api/explore/hand-detail?nodeId=${encodeURIComponent(nodeId)}&hand=${encodeURIComponent(hand)}`);
+  },
+
+  // ── Play (live game sessions) ──
+
+  createPlaySession: async (startingStack: number = 100, heroPosition: string = 'IP') => {
+    return fetchApi<import('@/types/play').SessionState>('/api/play/session', {
+      method: 'POST',
+      body: JSON.stringify({ startingStack, heroPosition }),
+    });
+  },
+
+  getPlaySession: async (sessionId: string) => {
+    return fetchApi<import('@/types/play').SessionState>(`/api/play/session/${sessionId}`);
+  },
+
+  takePlayAction: async (sessionId: string, actionType: string, amount: number = 0) => {
+    return fetchApi<import('@/types/play').SessionState>('/api/play/action', {
+      method: 'POST',
+      body: JSON.stringify({ sessionId, actionType, amount }),
+    });
+  },
+
+  nextPlayHand: async (sessionId: string) => {
+    return fetchApi<import('@/types/play').SessionState>(`/api/play/next-hand/${sessionId}`, {
+      method: 'POST',
+    });
+  },
+
+  getPlayHistory: async (sessionId: string) => {
+    return fetchApi<import('@/types/play').HandRecord[]>(`/api/play/history/${sessionId}`);
+  },
+
+  // ── Solver ──
+
+  createSolveJob: async (config: {
+    board: string[];
+    ip_range: string;
+    oop_range: string;
+    pot?: number;
+    effective_stack?: number;
+    bet_sizes?: number[];
+    raise_sizes?: number[];
+    max_iterations?: number;
+    max_raises?: number;
+    deterministic?: boolean;
+  }) => {
+    return fetchApi<{ job_id: string; status: string; estimated_seconds: number; warnings: string[] }>(
+      '/api/solver/solve',
+      { method: 'POST', body: JSON.stringify(config) },
+    );
+  },
+
+  getSolveProgress: async (jobId: string) => {
+    return fetchApi<{
+      job_id: string; status: string; iteration: number;
+      total_iterations: number; convergence_metric: number; elapsed_seconds: number;
+    }>(`/api/solver/job/${jobId}`);
+  },
+
+  getSolveResult: async (jobId: string) => {
+    return fetchApi<Record<string, unknown>>(`/api/solver/result/${jobId}`);
+  },
+
+  getSolverHistory: async () => {
+    return fetchApi<Array<Record<string, unknown>>>('/api/solver/history');
+  },
+
+  getSolverHistoryDetail: async (solveId: string) => {
+    return fetchApi<Record<string, unknown>>(`/api/solver/history/${solveId}`);
+  },
+
+  cancelSolveJob: async (jobId: string) => {
+    return fetchApi<{ job_id: string; status: string; message: string }>(`/api/solver/cancel/${jobId}`, {
+      method: 'POST',
+    });
+  },
+
+  compareToSolver: async (data: {
+    board: string[]; hero_hand?: string[]; pot: number; position?: string;
+  }) => {
+    return fetchApi<Record<string, unknown>>('/api/play/compare-to-solver', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
+
+  getSolverNodes: async (solveId: string) => {
+    return fetchApi<Record<string, unknown>>(`/api/explore/solver-nodes?solve_id=${solveId}`);
+  },
+
+  getExploreSolverBacked: async (solveId: string, nodeId: string = 'node_0') => {
+    return fetchApi<Record<string, unknown>>(
+      `/api/explore/solver-backed?solve_id=${solveId}&node_id=${nodeId}`,
+    );
   },
 };

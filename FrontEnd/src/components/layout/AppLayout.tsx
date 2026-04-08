@@ -10,6 +10,8 @@ import {
   HelpCircle,
   User,
   LogOut,
+  Spade,
+  Zap,
 } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
 import { useAuthStore } from '@/store/useAuthStore';
@@ -19,12 +21,15 @@ import { useQueryClient } from '@tanstack/react-query';
 import { api } from '@/api/client';
 
 const navItems = [
-  { to: '/', icon: Home, label: 'Dashboard' },
-  { to: '/drill', icon: Target, label: 'Drill' },
-  { to: '/explore', icon: GitBranch, label: 'Explore' },
+  { to: '/', icon: Home, label: 'Главная' },
+  { to: '/play', icon: Spade, label: 'Игра' },
+  { to: '/drill', icon: Target, label: 'Тренировка' },
+  { to: '/explore', icon: GitBranch, label: 'Обзор' },
   { to: '/analytics', icon: BarChart3, label: 'Аналитика' },
   { to: '/library', icon: BookOpen, label: 'Библиотека' },
   { to: '/jobs', icon: Cpu, label: 'Задачи' },
+  { to: '/solver', icon: Zap, label: 'Солвер' },
+  { to: '/guide', icon: HelpCircle, label: 'Справочник' },
   { to: '/settings', icon: Settings, label: 'Настройки' },
 ];
 

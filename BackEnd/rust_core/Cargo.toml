@@ -1,0 +1,13 @@
+[package]
+name = "poker_core"
+version = "0.5.0"
+edition = "2021"
+
+[lib]
+name = "poker_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.24", features = ["extension-module"] }
+numpy = "0.24"
+rayon = "1.10"

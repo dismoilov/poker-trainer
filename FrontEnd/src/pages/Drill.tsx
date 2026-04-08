@@ -8,7 +8,12 @@ import { formatBB, formatPercent } from '@/lib/formatters';
 import { BoardDisplay, HandBadge } from '@/components/BoardDisplay';
 import { HandMatrix } from '@/components/HandMatrix';
 import { SpotSelector } from '@/components/SpotSelector';
+import { TooltipHint, HINTS } from '@/components/TooltipHint';
+import { SolvePickerModal } from '@/components/SolvePickerModal';
+import { StudySessionBar, StudyMilestone } from '@/components/StudySessionBar';
 import { cn } from '@/lib/utils';
+import { localizeAction, describeStrategy, localizeSpotName, localizeStreet } from '@/lib/localizePoker';
+import { generateDrillCoaching } from '@/lib/coachingEngine';
 import type { DrillQuestion, DrillFeedback, Action } from '@/types';
 import {
   ChevronRight,
@@ -16,7 +21,13 @@ import {
   EyeOff,
   BookOpen,
   SkipForward,
+  Beaker,
+  Shield,
+  AlertTriangle,
+  Sparkles,
+  X,
 } from 'lucide-react';
+import { useAuthStore } from '@/store/useAuthStore';
 
 type DrillPhase = 'loading' | 'question' | 'feedback';
 
@@ -27,6 +38,20 @@ const Drill = () => {
   const showMatrix = useAppStore((s) => s.showMatrix);
   const toggleMatrix = useAppStore((s) => s.toggleMatrix);
   const incrementDrill = useAppStore((s) => s.incrementDrill);
+  const studyContext = useAppStore((s) => s.studyContext);
+  const clearStudyContext = useAppStore((s) => s.clearStudyContext);
+  const recordDrillResult = useAppStore((s) => s.recordDrillResult);
+  const markStepComplete = useAppStore((s) => s.markStepComplete);
+  const advanceStep = useAppStore((s) => s.advanceStep);
+  const hasSession = !!studyContext.source;
+  const [showMilestone, setShowMilestone] = useState(false);
+
+  // Show milestone after ≥3 drills in a session
+  useEffect(() => {
+    if (hasSession && studyContext.drillsInSession >= 3 && !showMilestone) {
+      setShowMilestone(true);
+    }
+  }, [studyContext.drillsInSession, hasSession, showMilestone]);
 
   const [phase, setPhase] = useState<DrillPhase>('loading');
   const [question, setQuestion] = useState<DrillQuestion | null>(null);
@@ -34,6 +59,15 @@ const Drill = () => {
   const [selectedActionId, setSelectedActionId] = useState<string | null>(null);
   const [questionCount, setQuestionCount] = useState(0);
   const hasFetched = useRef(false);
+
+  // Solver drill state
+  const [solverDrillQ, setSolverDrillQ] = useState<any>(null);
+  const [solverDrillFb, setSolverDrillFb] = useState<any>(null);
+  const [solverDrillLoading, setSolverDrillLoading] = useState(false);
+  const [solverDrillPickerOpen, setSolverDrillPickerOpen] = useState(false);
+  const [solverDrillSolveId, setSolverDrillSolveId] = useState<string | null>(null);
+  const [solverDrillCount, setSolverDrillCount] = useState(0);
+  const [solverDrillCorrect, setSolverDrillCorrect] = useState(0);
 
   const spotId = selectedSpotId || 'srp-btn-bb-flop';
 
@@ -80,6 +114,10 @@ const Drill = () => {
       setFeedback(fb);
       setPhase('feedback');
       incrementDrill();
+      // Track session drill result
+      if (hasSession) {
+        recordDrillResult(fb.accuracy >= 0.8);
+      }
     },
   });
 
@@ -144,6 +182,62 @@ const Drill = () => {
 
   return (
     <div className="p-4 lg:p-6 max-w-6xl mx-auto">
+      {/* Purpose hint */}
+      <div className="mb-4 p-3 bg-primary/5 border border-primary/10 rounded-xl flex items-center gap-2">
+        <span className="text-lg">🎯</span>
+        <p className="text-xs text-muted-foreground">
+          <span className="font-medium text-foreground">Тренировка GTO-решений.</span> Выберите ситуацию, посмотрите борд и вашу руку, затем выберите оптимальное действие.
+        </p>
+      </div>
+      {/* Study session stepper */}
+      {hasSession && (
+        <StudySessionBar className="mb-4" />
+      )}
+
+      {/* Milestone: suggest next step after ≥3 drills */}
+      {showMilestone && hasSession && (
+        <StudyMilestone
+          title="Отличная тренировка!"
+          description={`Вы ответили на ${studyContext.drillsInSession} вопросов (${studyContext.drillsCorrectInSession} верно). Теперь изучите полную стратегию, чтобы лучше понять GTO-решения.`}
+          actionLabel="Изучить стратегию"
+          actionEmoji="📊"
+          onAction={() => {
+            markStepComplete(2);
+            advanceStep(3);
+            navigate('/explore');
+          }}
+          secondaryLabel="Продолжить тренировку"
+          onSecondary={() => setShowMilestone(false)}
+          variant="emerald"
+        />
+      )}
+
+      {/* Auto-open solver drill prompt (when arriving from solver with solve_id) */}
+      {hasSession && studyContext.solveId && !solverDrillSolveId && !showMilestone && (
+        <div className="mb-4 p-3 bg-violet-500/10 border border-violet-500/20 rounded-xl">
+          <button
+            onClick={async () => {
+              setSolverDrillSolveId(studyContext.solveId);
+              setSolverDrillLoading(true);
+              setSolverDrillFb(null);
+              try {
+                const token = useAuthStore.getState().token;
+                const res = await fetch('/api/drill/solver-drill', {
+                  method: 'POST',
+                  headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ solve_id: studyContext.solveId }),
+                });
+                if (res.ok) setSolverDrillQ(await res.json());
+              } catch {}
+              setSolverDrillLoading(false);
+            }}
+            className="text-xs text-primary hover:text-primary/80 flex items-center gap-2"
+          >
+            <Beaker className="w-3.5 h-3.5" />
+            Начать тренировку по расчёту солвера →
+          </button>
+        </div>
+      )}
       {/* Top bar */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3 text-sm text-muted-foreground flex-1 min-w-0">
@@ -175,22 +269,32 @@ const Drill = () => {
           {/* Spot summary */}
           <div className="bg-card border border-border rounded-2xl p-4 space-y-3">
             <div className="flex items-center gap-3 flex-wrap text-sm">
-              <span className="bg-secondary px-2.5 py-1 rounded-lg text-secondary-foreground">
-                {question.position}
-              </span>
-              <span className="text-muted-foreground">
-                Pot: {formatBB(question.potSize)}
-              </span>
-              <span className="text-muted-foreground">
-                Stack: {question.stackSize}bb
-              </span>
-              <span className="text-muted-foreground capitalize">
-                {question.street}
-              </span>
+              <TooltipHint content={HINTS[question.position as keyof typeof HINTS] || 'Позиция игрока за столом'}>
+                <span className="bg-secondary px-2.5 py-1 rounded-lg text-secondary-foreground cursor-help">
+                  {question.position}
+                </span>
+              </TooltipHint>
+              <TooltipHint content="Размер банка в больших блайндах">
+                <span className="text-muted-foreground cursor-help border-b border-dashed border-primary/50">
+                  Банк: {formatBB(question.potSize)}
+                </span>
+              </TooltipHint>
+              <TooltipHint content="Эффективный стек в больших блайндах (чаще всего 100bb)">
+                <span className="text-muted-foreground cursor-help border-b border-dashed border-primary/50">
+                  Стек: {question.stackSize}bb
+                </span>
+              </TooltipHint>
+              <TooltipHint content="Текущая улица торговли">
+                <span className="text-muted-foreground capitalize cursor-help border-b border-dashed border-primary/50">
+                  {localizeStreet(question.street)}
+                </span>
+              </TooltipHint>
             </div>
-            <div className="text-xs text-muted-foreground">
-              {question.lineDescription}
-            </div>
+            <TooltipHint content="Линия розыгрыша — последовательность действий, которая привела к текущей ситуации">
+              <div className="text-xs text-muted-foreground cursor-help inline-block border-b border-dashed border-primary/50">
+                {question.lineDescription}
+              </div>
+            </TooltipHint>
           </div>
 
           {/* Board */}
@@ -228,7 +332,7 @@ const Drill = () => {
                   <span className="text-muted-foreground text-xs mr-1.5">
                     {idx + 1}
                   </span>
-                  {action.label}
+                  {localizeAction(action.label)}
                 </button>
               ))}
             </div>
@@ -239,22 +343,51 @@ const Drill = () => {
             <div className="bg-card border border-border rounded-2xl p-5 space-y-4 animate-slide-in-right">
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold text-foreground">Результат</h3>
-                <div className="flex items-center gap-3 text-sm">
-                  <span
-                    className={cn(
-                      'font-medium',
-                      feedback.evLoss <= 0.5
-                        ? 'text-action-call'
-                        : feedback.evLoss <= 2
-                          ? 'text-action-check'
-                          : 'text-action-fold'
-                    )}
-                  >
-                    EV loss: {formatBB(feedback.evLoss)}
+                <div className="flex items-center gap-4 text-sm mt-3 pt-3 border-t">
+                  <TooltipHint content={HINTS.EVLoss}>
+                    <span className="font-medium text-foreground cursor-help">
+                      EV loss: {formatBB(feedback.evLoss)}
+                    </span>
+                  </TooltipHint>
+                  <TooltipHint content={HINTS.Accuracy}>
+                    <span className="font-medium text-foreground cursor-help">
+                      Точность: {formatPercent(feedback.accuracy)}
+                    </span>
+                  </TooltipHint>
+                </div>
+              </div>
+
+              {/* Phase 8B: Quality Label Badge */}
+              <div className={cn(
+                'rounded-lg p-3 border flex items-start gap-2',
+                feedback.accuracy >= 1.0 ? 'bg-emerald-500/10 border-emerald-500/20' :
+                feedback.accuracy >= 0.7 ? 'bg-green-500/10 border-green-500/20' :
+                feedback.accuracy >= 0.3 ? 'bg-amber-500/10 border-amber-500/20' :
+                'bg-red-500/10 border-red-500/20',
+              )}>
+                <span className="text-base shrink-0">
+                  {feedback.accuracy >= 1.0 ? '🎯' :
+                   feedback.accuracy >= 0.7 ? '✅' :
+                   feedback.accuracy >= 0.3 ? '⚠️' : '❌'}
+                </span>
+                <div>
+                  <span className={cn(
+                    'font-semibold text-xs',
+                    feedback.accuracy >= 1.0 ? 'text-emerald-400' :
+                    feedback.accuracy >= 0.7 ? 'text-green-400' :
+                    feedback.accuracy >= 0.3 ? 'text-amber-400' :
+                    'text-red-400',
+                  )}>
+                    {feedback.accuracy >= 1.0 ? 'Отлично!' :
+                     feedback.accuracy >= 0.7 ? 'Близко к солверу' :
+                     feedback.accuracy >= 0.3 ? 'Приемлемое отклонение' :
+                     'Значительное отклонение'}
                   </span>
-                  <span className="text-muted-foreground">
-                    Точность: {formatPercent(feedback.accuracy)}
-                  </span>
+                  <p className="text-[10px] text-muted-foreground mt-0.5">
+                    {feedback.chosenAction === feedback.correctAction
+                      ? `Вы выбрали лучшее действие: ${localizeAction(feedback.correctAction)}`
+                      : `Лучшее действие: ${localizeAction(feedback.correctAction)}. Вы выбрали: ${localizeAction(feedback.chosenAction)}`}
+                  </p>
                 </div>
               </div>
 
@@ -278,7 +411,7 @@ const Drill = () => {
                             : 'bg-secondary text-secondary-foreground'
                         )}
                       >
-                        <span>{action?.label || actionId}</span>
+                        <span>{localizeAction(action?.label || actionId)}</span>
                         <span className="font-mono font-medium">
                           {formatPercent(freq)}
                         </span>
@@ -286,6 +419,20 @@ const Drill = () => {
                     );
                   })}
                 </div>
+                {/* Phase 8B: Recommendation summary */}
+                {Object.keys(feedback.frequencies).length > 0 && (() => {
+                  const actionLabels: Record<string, string> = {};
+                  question.actions.forEach(a => { actionLabels[a.id] = a.label; });
+                  const stratInfo = describeStrategy(feedback.frequencies, actionLabels);
+                  return (
+                    <div className="mt-2 p-2.5 bg-secondary/50 rounded-lg">
+                      <div className="text-[10px] font-medium text-foreground mb-0.5">{stratInfo.typeLabel}</div>
+                      <div className="text-[10px] text-muted-foreground">
+                        💡 {stratInfo.summary}
+                      </div>
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Explanation */}
@@ -303,6 +450,52 @@ const Drill = () => {
                   ))}
                 </ul>
               </div>
+
+              {/* Data source indicator */}
+              <div className="text-[9px] text-muted-foreground/50 italic">
+                📊 Эвристика GTO • на основе предрассчитанных таблиц
+              </div>
+
+              {/* Coaching Feedback */}
+              {feedback && question && (() => {
+                const drillCoaching = generateDrillCoaching(
+                  feedback.chosenAction,
+                  feedback.correctAction,
+                  feedback.frequencies,
+                  feedback.accuracy,
+                );
+                return (
+                  <div className={cn(
+                    'rounded-xl p-3 border space-y-2',
+                    drillCoaching.severityColor === 'emerald' ? 'bg-emerald-500/5 border-emerald-500/15'
+                    : drillCoaching.severityColor === 'green' ? 'bg-green-500/5 border-green-500/15'
+                    : drillCoaching.severityColor === 'amber' ? 'bg-amber-500/5 border-amber-500/15'
+                    : 'bg-red-500/5 border-red-500/15',
+                  )}>
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm">{drillCoaching.severityEmoji}</span>
+                      <span className={cn(
+                        'text-xs font-semibold',
+                        drillCoaching.severityColor === 'emerald' ? 'text-emerald-400'
+                        : drillCoaching.severityColor === 'green' ? 'text-green-400'
+                        : drillCoaching.severityColor === 'amber' ? 'text-amber-400'
+                        : 'text-red-400',
+                      )}>{drillCoaching.severityLabel}</span>
+                    </div>
+                    <p className="text-[11px] text-foreground leading-relaxed">
+                      {drillCoaching.learningInsight}
+                    </p>
+                    {drillCoaching.mixedStrategyNote && (
+                      <p className="text-[10px] text-muted-foreground italic">
+                        🔀 {drillCoaching.mixedStrategyNote}
+                      </p>
+                    )}
+                    <p className="text-[10px] text-muted-foreground">
+                      👉 {drillCoaching.practiceAdvice}
+                    </p>
+                  </div>
+                );
+              })()}
 
               {/* Next button */}
               <button
@@ -349,7 +542,7 @@ const Drill = () => {
                         : 'border-border text-muted-foreground hover:text-foreground'
                     )}
                   >
-                    {action.label}
+                    {localizeAction(action.label)}
                   </button>
                 ))}
               </div>
@@ -357,6 +550,256 @@ const Drill = () => {
           </div>
         )}
       </div>
+
+      {/* Solver Drill Section */}
+      <div className="mt-8 bg-card border border-border rounded-2xl p-5 space-y-4">
+        <div className="flex items-center gap-2">
+          <Beaker className="w-4 h-4 text-primary" />
+          <h3 className="text-sm font-semibold text-foreground">Тренировка по солверу</h3>
+          <span className="text-[9px] bg-amber-500/15 border border-amber-500/30 text-amber-400 px-1.5 py-0.5 rounded">БЕТА</span>
+          {solverDrillCount > 0 && (
+            <span className="text-[10px] text-muted-foreground ml-auto">
+              {solverDrillCount} вопр. • {solverDrillCorrect}/{solverDrillCount} верно
+            </span>
+          )}
+        </div>
+        <div className="text-xs text-amber-400 bg-amber-500/10 border border-amber-500/20 rounded-lg p-2 flex items-center gap-2">
+          <AlertTriangle className="w-3 h-3 shrink-0" />
+          Реальные данные CFR+, ограничены флоп-задачами хедз-ап с фиксированными ставками.
+        </div>
+
+        {!solverDrillQ && !solverDrillLoading && (
+          <div className="flex gap-2">
+            <button
+              onClick={() => setSolverDrillPickerOpen(true)}
+              className="flex-1 py-2.5 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm transition-colors flex items-center justify-center gap-2"
+            >
+              <Beaker className="w-4 h-4" />
+              {solverDrillSolveId ? 'Сменить расчёт' : 'Выбрать расчёт для тренировки'}
+            </button>
+            {solverDrillSolveId && (
+              <button
+                onClick={async () => {
+                  setSolverDrillLoading(true);
+                  setSolverDrillFb(null);
+                  try {
+                    const token = useAuthStore.getState().token;
+                    const res = await fetch('/api/drill/solver-drill', {
+                      method: 'POST',
+                      headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                      body: JSON.stringify({ solve_id: solverDrillSolveId }),
+                    });
+                    if (res.ok) setSolverDrillQ(await res.json());
+                  } catch {}
+                  setSolverDrillLoading(false);
+                }}
+                className="px-4 py-2.5 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+              >
+                Начать тренировку
+              </button>
+            )}
+          </div>
+        )}
+
+        {solverDrillLoading && (
+          <div className="flex items-center gap-2 py-3">
+            <div className="w-4 h-4 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+            <span className="text-xs text-muted-foreground">Загрузка солвер-дрила...</span>
+          </div>
+        )}
+
+        {solverDrillQ && !solverDrillFb && (
+          <div className="space-y-3">
+            {/* Context bar */}
+            <div className="flex items-center gap-2 flex-wrap text-[10px]">
+              <span className="font-mono bg-secondary px-2 py-1 rounded">
+                Борд: {solverDrillQ.board?.join(' ')}
+              </span>
+              <span className="bg-secondary px-2 py-1 rounded">
+                IP: {solverDrillQ.ip_range}
+              </span>
+              <span className="bg-secondary px-2 py-1 rounded">
+                OOP: {solverDrillQ.oop_range}
+              </span>
+              {solverDrillQ.pot > 0 && (
+                <span className="bg-secondary px-2 py-1 rounded">
+                  Банк: {solverDrillQ.pot}bb
+                </span>
+              )}
+              <span className="bg-secondary px-2 py-1 rounded">
+                {solverDrillQ.node_label}
+              </span>
+              {solverDrillQ.trust_grade && (
+                <span className="bg-amber-500/15 text-amber-400 px-1.5 py-0.5 rounded border border-amber-500/30">
+                  <Shield className="w-3 h-3 inline mr-0.5" />{solverDrillQ.trust_grade.replace(/_/g, ' ')}
+                </span>
+              )}
+              {solverDrillQ.street_depth && (
+                <span className={`px-1.5 py-0.5 rounded border font-medium ${
+                  solverDrillQ.street_depth === 'flop_plus_turn'
+                    ? 'bg-cyan-500/15 border-cyan-500/30 text-cyan-400'
+                    : 'bg-slate-500/15 border-slate-500/30 text-slate-400'
+                }`}>
+                  {solverDrillQ.street_depth === 'flop_plus_turn' ? 'Флоп+тёрн' : 'Только флоп'}
+                </span>
+              )}
+            </div>
+
+            {/* Combo display */}
+            <div className="bg-secondary/50 rounded-xl p-4 flex items-center gap-4">
+              <div>
+                <div className="text-[10px] text-muted-foreground mb-1">Ваша комбинация</div>
+                <span className="font-mono text-xl font-bold text-foreground">{solverDrillQ.combo}</span>
+              </div>
+              <div className="text-[10px] text-muted-foreground">
+                <p>{solverDrillQ.data_depth}</p>
+                {solverDrillQ.iterations && <p>{solverDrillQ.iterations} итераций</p>}
+              </div>
+            </div>
+
+            <p className="text-sm text-foreground font-medium">Какое действие вы выберете?</p>
+            <div className="flex gap-2 flex-wrap">
+              {solverDrillQ.actions?.map((a: string, i: number) => (
+                <button
+                  key={a}
+                  onClick={async () => {
+                    try {
+                      const token = useAuthStore.getState().token;
+                      const res = await fetch('/api/drill/solver-drill/answer', {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                          solve_id: solverDrillQ.solve_id,
+                          node_id: solverDrillQ.node_id,
+                          combo: solverDrillQ.combo,
+                          chosen_action: a,
+                        }),
+                      });
+                      if (res.ok) {
+                        const fb = await res.json();
+                        setSolverDrillFb(fb);
+                        setSolverDrillCount(c => c + 1);
+                        if (fb.correct) setSolverDrillCorrect(c => c + 1);
+                      }
+                    } catch {}
+                  }}
+                  className="px-5 py-2.5 bg-secondary hover:bg-secondary/80 text-foreground rounded-xl text-sm font-medium transition-all border border-border hover:border-primary/40 focus:ring-2 focus:ring-primary focus:outline-none"
+                >
+                  <span className="text-muted-foreground text-xs mr-1.5">{i + 1}</span>
+                  {a}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {solverDrillFb && (
+          <div className="space-y-3">
+            {/* Verdict */}
+            <div className={cn(
+              'p-4 rounded-xl border text-sm',
+              solverDrillFb.correct
+                ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400'
+                : solverDrillFb.acceptable
+                  ? 'bg-amber-500/10 border-amber-500/30 text-amber-400'
+                  : 'bg-red-500/10 border-red-500/30 text-red-400'
+            )}>
+              <div className="font-semibold mb-1">
+                {solverDrillFb.correct ? '✓ Верно!' : solverDrillFb.acceptable ? '~ Допустимо' : '✗ Неверно'}
+              </div>
+              <div className="text-foreground/80">{solverDrillFb.feedback}</div>
+            </div>
+
+            {/* Accuracy meter */}
+            {solverDrillFb.accuracy_pct != null && (
+              <div className="flex items-center gap-2 text-xs">
+                <span className="text-muted-foreground w-20">Точность</span>
+                <div className="flex-1 h-2 bg-secondary/50 rounded-full overflow-hidden">
+                  <div
+                    className={cn(
+                      'h-full rounded-full',
+                      solverDrillFb.accuracy_pct >= 80 ? 'bg-emerald-400' :
+                      solverDrillFb.accuracy_pct >= 40 ? 'bg-amber-400' : 'bg-red-400'
+                    )}
+                    style={{ width: `${Math.min(solverDrillFb.accuracy_pct, 100)}%` }}
+                  />
+                </div>
+                <span className="font-mono w-12 text-right">{solverDrillFb.accuracy_pct.toFixed(0)}%</span>
+              </div>
+            )}
+
+            {/* Frequency bars */}
+            <div className="space-y-1">
+              <div className="text-[10px] text-muted-foreground">Частоты солвера:</div>
+              {Object.entries(solverDrillFb.solver_frequencies || {})
+                .sort(([,a]: any, [,b]: any) => b - a)
+                .map(([a, f]: [string, any]) => (
+                  <div key={a} className="flex items-center gap-2 text-xs">
+                    <span className={cn(
+                      'w-20 font-medium',
+                      a === solverDrillFb.best_action ? 'text-primary' : 'text-foreground'
+                    )}>{a}</span>
+                    <div className="flex-1 h-2 bg-secondary/50 rounded-full overflow-hidden">
+                      <div className="h-full rounded-full bg-primary/60" style={{ width: `${f * 100}%` }} />
+                    </div>
+                    <span className="font-mono w-10 text-right text-muted-foreground">{(f * 100).toFixed(0)}%</span>
+                  </div>
+                ))}
+            </div>
+
+            {/* Explanation */}
+            {solverDrillFb.explanation && solverDrillFb.explanation.length > 0 && (
+              <div className="space-y-1">
+                <div className="text-[10px] text-muted-foreground">Пояснение:</div>
+                {solverDrillFb.explanation.map((line: string, i: number) => (
+                  <p key={i} className="text-xs text-foreground/80">{line}</p>
+                ))}
+              </div>
+            )}
+
+            {/* Data depth note */}
+            {solverDrillFb.data_depth_note && (
+              <div className="text-[9px] text-muted-foreground/50 italic">{solverDrillFb.data_depth_note}</div>
+            )}
+
+            <button
+              onClick={() => {
+                setSolverDrillQ(null);
+                setSolverDrillFb(null);
+                // Auto-fetch next question
+                if (solverDrillSolveId) {
+                  setSolverDrillLoading(true);
+                  const token = useAuthStore.getState().token;
+                  fetch('/api/drill/solver-drill', {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ solve_id: solverDrillSolveId }),
+                  })
+                    .then(r => r.ok ? r.json() : null)
+                    .then(q => { if (q) setSolverDrillQ(q); })
+                    .finally(() => setSolverDrillLoading(false));
+                }
+              }}
+              className="flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground rounded-xl text-sm font-medium hover:bg-primary/90 transition-colors"
+            >
+              Следующий вопрос →
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Solver Drill Picker Modal */}
+      <SolvePickerModal
+        open={solverDrillPickerOpen}
+        onClose={() => setSolverDrillPickerOpen(false)}
+        title="Выберите расчёт для тренировки"
+        onSelect={(solveId) => {
+          setSolverDrillPickerOpen(false);
+          setSolverDrillSolveId(solveId);
+          setSolverDrillCount(0);
+          setSolverDrillCorrect(0);
+        }}
+      />
     </div>
   );
 };

@@ -95,3 +95,72 @@ class DrillAnswerModel(Base):
     ev_loss = Column(Float, nullable=False, default=0.0)
     accuracy = Column(Float, nullable=False, default=0.0)
     created_at = Column(DateTime, nullable=False, server_default=func.now())
+
+
+class SolveResultModel(Base):
+    """
+    Persisted solver result — stores summaries and metadata,
+    NOT the full per-combo strategy matrix (too large for SQLite).
+    
+    HONEST NOTE: This stores summary data only. Full per-combo strategies
+    are only available in-memory during the solve session. After server
+    restart, only summaries are available.
+    """
+    __tablename__ = "solve_results"
+
+    id = Column(String, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    status = Column(String, nullable=False, default="pending")
+    created_at = Column(DateTime, nullable=False, server_default=func.now())
+    completed_at = Column(DateTime, nullable=True)
+    updated_at = Column(DateTime, nullable=True, onupdate=func.now())
+
+    # Input config
+    config_json = Column(JSON, nullable=False, default={})
+
+    # Results
+    iterations = Column(Integer, nullable=False, default=0)
+    convergence_metric = Column(Float, nullable=False, default=0.0)
+    elapsed_seconds = Column(Float, nullable=False, default=0.0)
+    tree_nodes = Column(Integer, nullable=False, default=0)
+    ip_combos = Column(Integer, nullable=False, default=0)
+    oop_combos = Column(Integer, nullable=False, default=0)
+    matchups = Column(Integer, nullable=False, default=0)
+    converged = Column(Boolean, nullable=False, default=False)
+    solved_node_count = Column(Integer, nullable=False, default=0)
+
+    # Metadata & validation
+    algorithm_metadata_json = Column(JSON, nullable=False, default={})
+    validation_json = Column(JSON, nullable=False, default={})
+
+    # Root strategy summary (action averages, not per-combo)
+    root_strategy_summary_json = Column(JSON, nullable=False, default={})
+
+    # Selected node summaries (action averages for key nodes, not full combos)
+    node_summaries_json = Column(JSON, nullable=False, default={})
+
+    # Whether full per-combo data was available at persist time
+    full_strategies_available = Column(Boolean, nullable=False, default=False)
+
+    # Phase 4A: Exploitability and trust grading
+    exploitability_mbb = Column(Float, nullable=True)
+    exploitability_exact = Column(Boolean, nullable=True)
+    trust_grade = Column(String, nullable=True)
+    trust_grade_json = Column(JSON, nullable=True)
+    benchmark_summary_json = Column(JSON, nullable=True)
+    exploitability_json = Column(JSON, nullable=True)
+
+    # Phase 4B: Combo-level strategy persistence (constrained subset)
+    combo_strategies_json = Column(JSON, nullable=True)
+    combo_storage_note = Column(Text, nullable=True)
+
+    # Phase 6A: Street depth metadata
+    street_depth = Column(String, nullable=True, default="flop_only")
+    turn_cards_explored = Column(Integer, nullable=True, default=0)
+
+    # Phase 7A: Solver correctness metadata
+    correctness_json = Column(JSON, nullable=True)
+    correctness_notes = Column(Text, nullable=True)
+
+    error = Column(Text, nullable=True)
+

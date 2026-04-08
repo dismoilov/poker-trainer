@@ -17,6 +17,9 @@ const Library = lazy(() => import('@/pages/Library'));
 const Jobs = lazy(() => import('@/pages/Jobs'));
 const SettingsPage = lazy(() => import('@/pages/Settings'));
 const Profile = lazy(() => import('@/pages/Profile'));
+const Guide = lazy(() => import('@/pages/Guide'));
+const Play = lazy(() => import('@/pages/Play'));
+const Solver = lazy(() => import('@/pages/Solver'));
 const NotFound = lazy(() => import('@/pages/NotFound'));
 
 const queryClient = new QueryClient({
@@ -56,6 +59,9 @@ const App = () => (
                   <Route path="/jobs" element={<Jobs />} />
                   <Route path="/settings" element={<SettingsPage />} />
                   <Route path="/profile" element={<Profile />} />
+                  <Route path="/guide" element={<Guide />} />
+                  <Route path="/play" element={<Play />} />
+                  <Route path="/solver" element={<Solver />} />
                 </Route>
               </Route>
               <Route path="*" element={<NotFound />} />

@@ -1,0 +1,230 @@
+{
+  "Turn 3x3/3tc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.2933628559112549
+    },
+    "75": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.1873397827148438
+    },
+    "100": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.1849699020385742
+    },
+    "150": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.3443410396575928
+    },
+    "200": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.2004599571228027
+    },
+    "300": {
+      "iters": 50,
+      "conv": 0.323954,
+      "stop": "converged",
+      "runtime": 1.1794939041137695
+    }
+  },
+  "Turn 6x6/3tc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.924889087677002
+    },
+    "75": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.760357141494751
+    },
+    "100": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.723212718963623
+    },
+    "150": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.65592098236084
+    },
+    "200": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.666551113128662
+    },
+    "300": {
+      "iters": 50,
+      "conv": 0.369652,
+      "stop": "converged",
+      "runtime": 3.656342029571533
+    }
+  },
+  "Turn 8x8/3tc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.183161020278931
+    },
+    "75": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.184179782867432
+    },
+    "100": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.237370729446411
+    },
+    "150": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.230024099349976
+    },
+    "200": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.210258960723877
+    },
+    "300": {
+      "iters": 50,
+      "conv": 0.768949,
+      "stop": "converged",
+      "runtime": 6.205883741378784
+    }
+  },
+  "River 2x2/2tc2rc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.148493,
+      "stop": "max_iterations",
+      "runtime": 0.08129620552062988
+    },
+    "75": {
+      "iters": 75,
+      "conv": 0.114578,
+      "stop": "converged",
+      "runtime": 0.09366297721862793
+    },
+    "100": {
+      "iters": 100,
+      "conv": 0.095515,
+      "stop": "converged",
+      "runtime": 0.09384822845458984
+    },
+    "150": {
+      "iters": 75,
+      "conv": 0.114578,
+      "stop": "converged",
+      "runtime": 0.08713197708129883
+    },
+    "200": {
+      "iters": 75,
+      "conv": 0.114578,
+      "stop": "converged",
+      "runtime": 0.08763289451599121
+    },
+    "300": {
+      "iters": 75,
+      "conv": 0.114578,
+      "stop": "converged",
+      "runtime": 0.08806204795837402
+    }
+  },
+  "River 3x3/2tc2rc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.104185,
+      "stop": "max_iterations",
+      "runtime": 0.9408082962036133
+    },
+    "75": {
+      "iters": 75,
+      "conv": 0.077498,
+      "stop": "converged",
+      "runtime": 1.1025478839874268
+    },
+    "100": {
+      "iters": 100,
+      "conv": 0.063252,
+      "stop": "converged",
+      "runtime": 1.258941888809204
+    },
+    "150": {
+      "iters": 75,
+      "conv": 0.077498,
+      "stop": "converged",
+      "runtime": 1.1033358573913574
+    },
+    "200": {
+      "iters": 75,
+      "conv": 0.077498,
+      "stop": "converged",
+      "runtime": 1.1094889640808105
+    },
+    "300": {
+      "iters": 75,
+      "conv": 0.077498,
+      "stop": "converged",
+      "runtime": 1.0951650142669678
+    }
+  },
+  "River 6x6/2tc2rc": {
+    "50": {
+      "iters": 50,
+      "conv": 0.472187,
+      "stop": "max_iterations",
+      "runtime": 2.6560609340667725
+    },
+    "75": {
+      "iters": 75,
+      "conv": 0.385179,
+      "stop": "converged",
+      "runtime": 3.18782901763916
+    },
+    "100": {
+      "iters": 100,
+      "conv": 0.323863,
+      "stop": "converged",
+      "runtime": 3.377117872238159
+    },
+    "150": {
+      "iters": 75,
+      "conv": 0.385179,
+      "stop": "converged",
+      "runtime": 3.025892734527588
+    },
+    "200": {
+      "iters": 75,
+      "conv": 0.385179,
+      "stop": "converged",
+      "runtime": 3.0115392208099365
+    },
+    "300": {
+      "iters": 75,
+      "conv": 0.385179,
+      "stop": "converged",
+      "runtime": 3.0492899417877197
+    }
+  }
+}

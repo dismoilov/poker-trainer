@@ -149,6 +149,9 @@ export interface HandDetail {
   frequencies: Record<string, number>;
   connection: string;
   explanation: string[];
+  recommendation_summary?: string;
+  node_context?: { node_explanation: string; spot_context: string };
+  data_source_label?: string;
 }
 
 export interface HotkeyConfig {

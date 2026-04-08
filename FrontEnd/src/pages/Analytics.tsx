@@ -31,6 +31,7 @@ import {
 import { SUIT_SYMBOLS, SUIT_COLORS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 import type { GameDetail } from '@/types';
+import { TooltipHint, HINTS } from '@/components/TooltipHint';
 
 const ACTION_LABELS: Record<string, string> = {
   fold: 'Fold',
@@ -313,13 +314,21 @@ const Analytics = () => {
         icon: Target,
       },
       {
-        label: 'Средний EV loss',
-        value: formatBB(summary.avgEvLoss),
+        label: (
+          <TooltipHint content={HINTS.EVLoss}>
+            <span>Средний EV loss</span>
+          </TooltipHint>
+        ),
+        value: summary ? formatBB(summary.avgEvLoss) : '-',
         icon: TrendingDown,
       },
       {
-        label: 'Точность',
-        value: formatPercent(summary.accuracy),
+        label: (
+          <TooltipHint content={HINTS.Accuracy}>
+            <span>Точность</span>
+          </TooltipHint>
+        ),
+        value: summary ? formatPercent(summary.accuracy) : '-',
         icon: Percent,
       },
     ]
@@ -428,9 +437,17 @@ const Analytics = () => {
                 <th className="text-left p-3">Board</th>
                 <th className="text-left p-3">Позиция</th>
                 <th className="text-left p-3">Выбор</th>
-                <th className="text-left p-3">Верно</th>
-                <th className="text-right p-3">EV loss</th>
-                <th className="text-right p-3">Точность</th>
+                <th className="text-left p-3">Ответ (Вы / GTO)</th>
+                <th className="text-right p-3">
+                  <TooltipHint content={HINTS.EVLoss}>
+                    <span className="cursor-help border-b border-dashed border-primary/50">EV loss</span>
+                  </TooltipHint>
+                </th>
+                <th className="text-right p-3">
+                  <TooltipHint content={HINTS.Accuracy}>
+                    <span className="cursor-help border-b border-dashed border-primary/50">Точность</span>
+                  </TooltipHint>
+                </th>
                 <th className="text-right p-3">Дата</th>
               </tr>
             </thead>

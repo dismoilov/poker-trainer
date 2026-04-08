@@ -1,12 +1,19 @@
 """
-Strategy generation — uses real GTO frequency tables.
+Heuristic strategy generation (NOT a real solver).
 
-Generates 169-hand strategy matrices based on:
-- Hand tier (1-8)
+Generates 169-hand strategy matrices using hand-tier lookup tables,
+board-texture classification, and deterministic jitter. These are
+plausible approximations useful for training, but they are NOT
+equilibrium strategies computed by an iterative solver.
+
+Inputs:
+- Hand tier (1-8) from gto_data.py
 - Board texture (dry/wet/paired/monotone/two_tone/semi_wet)
 - Position (IP vs OOP)
 - Pot type (SRP vs 3bet vs 4bet)
 - Available actions (check/bet33/bet75/fold/call/raise)
+
+For the real solver abstraction, see app/solver/base.py.
 """
 
 import json

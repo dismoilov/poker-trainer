@@ -174,3 +174,7 @@ class HandDetail(BaseModel):
     frequencies: dict[str, float]
     connection: str
     explanation: list[str]
+    recommendation_summary: str = ""           # Phase 8B: human-readable summary
+    node_context: Optional[dict] = None        # Phase 8B: educational node context
+    data_source_label: str = "Heuristic GTO"   # Phase 8B: data source indicator
+
